@@ -9,7 +9,7 @@
 name: GHA-Pipeline-to-AWS-DEMO
 env:
   AWS_S3_BUCKET_NAME: "github-aws-integration-bucket"
-  AWS_IAM_ROLE_ARN  : "arn:aws:iam::519428392470:role/github-aws-integration-role"
+  AWS_IAM_ROLE_ARN  : "arn:aws:iam::519428392470:root"
   AWS_DEFAULT_REGION: "eu-north-1"
 
 permissions:
